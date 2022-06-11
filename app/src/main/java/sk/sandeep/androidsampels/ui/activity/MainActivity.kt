@@ -72,7 +72,25 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnMain.setOnClickListener {
 
+
             /**
+             * TODO:What is Intent?
+             * Ans: Intents, in general, are used for navigating among various
+             * activities within the same application, but note, is not limited to
+             * one single application, i.e., they can be utilized from moving from
+             * one application to another as well.
+             * TODO:Types Of Intent?
+             * Ans:
+             * There are two types of intents in android:
+                   1. Implicit
+                   2. Explicit.
+
+            Implicit Intent doesn’t specify the component. In such a case, intent
+            provides information on available components provided by the system that
+            is to be invoked.
+
+            Explicit Intent specifies the component. In such a case, intent provides
+            the external class to be
              * TODO: How To Send Data from one Activity to another Activity?
              * */
             val sendIntent = Intent(this, SecondActivity::class.java).apply {
