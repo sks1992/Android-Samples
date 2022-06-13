@@ -3,12 +3,19 @@ package sk.sandeep.androidsampels.ui.activity
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
 import sk.sandeep.androidsampels.R
+import sk.sandeep.androidsampels.databinding.ActivityThirdBinding
 
 class ThirdActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityThirdBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_third)
+        binding = DataBindingUtil.setContentView(
+            this, R.layout
+                .activity_third
+        )
         Log.d("TAG", "ThirdActivity: onCreate")
     }
 

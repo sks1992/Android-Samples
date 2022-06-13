@@ -8,4 +8,8 @@
     <string name="go_to_main_activity">Go to Main Activity</string>
     <string name="go_to_activity_third">Go to Activity Third</string>
     <string name="third_activity">Third Activity</string>
+    <string name="go_to_second_fragment">go to second Fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="go_to_first_fragment">Go to First Fragment</string>
 </resources>
